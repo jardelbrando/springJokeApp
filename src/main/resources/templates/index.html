@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <title>Chuck Norris Jokes</title>
+        <link th:href="@{/styles/style.css}" rel="stylesheet" />
+    </head>
+    <body>
+    <div class="container">
+        <div class="header">
+            <img class="image" th:src="@{images/chuck.png}" alt="cat">
+            <h1>Funny fact about Chuck Norris:</h1>
+        </div>
+        <div class="content">
+            <p th:text="${joke}">Show Joke here...</p>
+        </div>
+    </div>
+    </body>
+</html>

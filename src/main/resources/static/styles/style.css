@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+}
+
+.container{
+    border: 5px solid saddlebrown;
+    border-radius: 2px;
+    padding: 10px;
+    text-align: center;
+    font-family: "Arial Black";
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.image{
+    margin-right: 20px;
+    height: 100px;
+    width: 90px;
+}
